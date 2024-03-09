@@ -14,7 +14,7 @@ inputs:
   status_name:
     required: false
     description: notion database 状态字段的字段名, 默认为pstatus, 可修改
-    default: "pstatus"
+    default: "status"
   status_published:
     required: false
     description: notion database 文章已发布状态的字段值
@@ -39,7 +39,7 @@ inputs:
       多个key请用逗号分隔, 如abbrlink, id
     default: "abbrlink"
   metas_excluded:
-    default: "ptype,pstatus"
+    default: "status"
     description: |
       Notion转Markdown, 生成页面YAML是需要删除的属性名称, 多个用逗号分隔
       需要删除的页面属性名称
