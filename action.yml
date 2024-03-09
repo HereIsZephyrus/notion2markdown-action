@@ -39,7 +39,7 @@ inputs:
       多个key请用逗号分隔, 如abbrlink, id
     default: "abbrlink"
   metas_excluded:
-    default: ["ptype","pstatus"]
+    default: "ptype,pstatus"
     description: |
       Notion转Markdown, 生成页面YAML是需要删除的属性名称, 多个用逗号分隔
       需要删除的页面属性名称
