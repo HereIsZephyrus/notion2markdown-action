@@ -3,3 +3,4 @@ output/
 config.json
 .vscode
 source
+.DS_Store
